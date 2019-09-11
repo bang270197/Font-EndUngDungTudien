@@ -1,0 +1,4 @@
+<div class="alert alert-primary" role="alert" *ngFor="let i of Iword" style="width: 300px">
+ <a [routerLink]="['/dictionary',i.key]">{{i.key}}</a>
+</div>
+<router-outlet></router-outlet>
